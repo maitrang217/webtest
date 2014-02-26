@@ -1,0 +1,184 @@
+[
+    {
+        "img": "turku/12.png",
+        "cname": "Juho Heino",
+        "major": "Oikeustieteellinen tiedekunta"
+    },
+    {
+        "img": "turku/13.png",
+        "cname": "Juulianna Huusko ",
+        "major": "Oikeustieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/14.png",
+        "cname": "Timo Koivisto",
+        "major": "Yhteiskuntatieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/15.png",
+        "cname": "Justus Koski ",
+        "major": "Yhteiskuntatieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/16.png",
+        "cname": "Saku Lehikoinen ",
+        "major": "Oikeustieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/17.png",
+        "cname": "Monica Lind",
+        "major": "Yhteiskuntatieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/18.png",
+        "cname": "Jani Linden",
+        "major": "Matemaattis-luonnontieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/19.png",
+        "cname": "Veera Löthman",
+        "major": "Oikeustieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/20.png",
+        "cname": "Matias Marttinen",
+        "major": "Yhteiskuntatieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/21.png",
+        "cname": "Tuulia Merivuori",
+        "major": "Yhteiskuntatieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/22.png",
+        "cname": "Mitro Miihkinen",
+        "major": "Matemaattis-luonnontieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/23.png",
+        "cname": "Janina Myllynen",
+        "major": "Yhteiskuntatieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/24.png",
+        "cname": "Matti Niskanen",
+        "major": "Yhteiskuntatieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/25.png",
+        "cname": "Jyri Outinen",
+        "major": "Lääketieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/26.png",
+        "cname": "Otso Pohjalainen",
+        "major": "Oikeustieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/27.png",
+        "cname": "Mikko Pousi",
+        "major": "Yhteiskuntatieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/28.png",
+        "cname": "Miira Raiskilaa",
+        "major": "Yhteiskuntatieteellinen tiedekunta"
+    },
+    {
+        "img": "turku/29.png",
+        "cname": "Jasse Rajamäki",
+        "major": "Yhteiskuntatieteellinen tiedekunta"
+    },
+    {
+        "img": "turku/30.png",
+        "cname": "Olli Siilos",
+        "major": "Oikeustieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/31.png",
+        "cname": "Sami Siipola",
+        "major": "Matemaattis-luonnontieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/32.png",
+        "cname": "Seida Sohrabi",
+        "major": "Yhteiskuntatieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/33.png",
+        "cname": "Matti Suontausta",
+        "major": "Oikeustieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/34.png",
+        "cname": "Janika Takatalo",
+        "major": "Yhteiskuntatieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/35.png",
+        "cname": "Salla Turunen",
+        "major": "Yhteiskuntatieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/36.png",
+        "cname": "Miikka Tuomala",
+        "major": "Lääketieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/37.png",
+        "cname": "Kristiina Uutela",
+        "major": "Oikeustieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/38.png",
+        "cname": "Ilari Vaara",
+        "major": "Yhteiskuntatieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/39.png",
+        "cname": "Ville Valkonen",
+        "major": "Turun kauppakorkeakoulu"
+    },
+    {
+
+        "img": "turku/40.png",
+        "cname": "Tuomas Viljamaa",
+        "major": "Yhteiskuntatieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/41.png",
+        "cname": "Jutta Wiren",
+        "major": "Yhteiskuntatieteellinen tiedekunta"
+    },
+    {
+
+        "img": "turku/42.png",
+        "cname": "Jenni Yliaho",
+        "major": "Lääketieteellinen tiedekunta"
+    }
+]
