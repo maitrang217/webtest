@@ -1,0 +1,313 @@
+
+/* Media Queries */ 
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+
+	#main {
+		top: 55px; /* header height */
+	}
+	.modern-mobile.fixed-header #main {
+		margin-top: 67px;
+	}
+	nav ul {
+		height: 40px;
+		margin: 0;
+		margin-top: 0px;
+	}
+	nav li a,
+	nav li a:visited,
+	nav li a:focus {
+		display: inline-block;
+		height: 39px;
+		width: auto;
+		padding: 23px 10px 0px 10px;		
+	}
+	nav li a span {
+		display: none;
+	}
+	nav > ul > li.spark-has-submenu:after {
+		top: 50%;
+	}
+	.logo a{
+		width: 220px;
+	}
+	.next {
+		right: 260px;
+	}
+	.prev{
+		left: -23px;
+	}
+
+	a.number img{
+		width: 180px;
+		height: 175px;
+	}
+	.footer-2{
+		margin-top: 10px !important;
+		margin-right: 5px !important;
+	}
+	.footer-3{
+		margin-top: 10px !important;
+		margin-left: 5px !important;
+	}
+	img[alt="Web Logo Iso"]{
+		width: 270px;
+	}
+	#calendar iframe{
+		width: 500px;
+		height: 460px;
+		margin-left: 134px;
+	}
+
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	header h1,
+	header h1 a,
+	header h1.logo a img {
+		max-height: 60px;
+	}
+	
+	/* Fix for skeleton when a column have both alpha and omega classes */
+	.column.alpha.omega,
+	.columns.alpha.omega {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+	
+	/* Helper classes */
+	.hide-for-tables, /* misspelled, kept for compatibility */
+	.hide-for-tablets,
+	.hide-for-mobile { /* since added ".hide-for-mobileS" (which doesn't hide for tablets), keeping this version for compatibility */
+		display: none;
+	}
+	.tablets-only {
+		display: block;
+	}
+	
+	/* Re-position the arrows for menu items that have dropdown submenus */
+	nav > ul > li.spark-has-submenu:after {
+		margin-left: -8px;
+		margin-top: 1px;
+	}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	#main{
+		top: 55px;
+	}
+	.container .column.box,
+	.container .columns.box,
+	.container .box .column,
+	.container .box .columns {
+		width: 280px;
+	}
+	.box.featured {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.container .row.box {
+		padding: 10px;
+	}
+	.logo a{
+		width: 50px;
+	}
+	.desktops-only{
+		display: none;
+	}
+
+	header nav.menu {
+		height: 60px;
+	}
+	header h1.logo {
+		margin-top: 5px; /* Header's height is 60px in tablet mode and logo (mobile version) is expected to be 50px so we center it vertically. */
+	}
+
+	label,
+	legend {
+		text-align: left;
+		padding: 0 0 10px 5px;
+	}
+	label span,
+	legend span { 
+		display: inline;
+		margin-left: 10px;
+	}
+
+	/* Helper classes */
+	.hide-for-mobiles {
+		display: none;
+	}
+	.mobiles-only {
+		display: block;
+	}
+	
+	/* Re-position the arrows for menu items that have dropdown submenus */
+	nav > ul > li.spark-has-submenu:after {
+		left: 50%;
+		margin-left: 0;
+		margin-top: 12px;
+	}
+	.next {
+		right: -33px;
+	}
+	.prev{
+		left: -37px;
+	}
+
+	.list_carousel.responsive {
+		width: auto;
+		margin-left: 17px;
+		margin-right: 15px;
+	}
+	.list_carousel li{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	a.number img{
+		width: 180px;
+		height: 175px;
+	}
+	.events{
+		margin-left: 0;
+	}
+	.footer-2{
+		margin-top: 10px !important;
+		margin-right: 0 !important;
+		padding: 0;
+	}
+	.footer-3{
+		margin-top: 10px !important;
+		margin-left: 0 !important;
+		padding: 0;
+	}
+	.footer-content-2,
+	.footer-content-3{
+		margin: 10px;
+	}
+	iframe, small a{
+		margin-left: 0;
+		width: 260px;
+	}
+	img[alt="Web Logo Iso"]{
+		width: 250px;
+		height: 250px;
+		float: none;
+		margin-left: auto;
+		margin-right: auto
+	}
+	nav select.menu {
+		margin: 5px 0 0 0;
+	}
+	.detail_container{
+		height: auto;
+	}
+	#calendar iframe{
+		width: 300px;
+		height: 276px;
+		margin-left: 0;
+	}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	nav li a,
+	nav li a:visited,
+	nav li a:focus {
+		padding: 23px 10px 0 10px;		
+	}
+
+	.container .column.box,
+	.container .columns.box,
+	.container .box .column,
+	.container .box .columns {
+		width: 400px;
+	}
+	#calendar iframe{
+		width: 420px;
+		height: 389px;
+		margin-left: 0;
+	}
+	
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+	#main {
+		top: 57px; /* header height (including top border) */
+	}
+	.modern-mobile.fixed-header #main {
+		margin-top: 57px;
+	}
+	
+	nav li a,
+	nav li a:visited,
+	nav li a:focus {
+		padding: 17px 2px 0 2px;		
+	}
+	nav ul.nav {
+		height: 30px;
+		margin: 0;
+	}
+
+	header h1.logo {
+		margin-top: 0; /* Remove previously added margin as now the header is 50px */
+	}
+	.desktops-only{
+		display: none;
+	}
+	.mobiles-only{
+		display: block
+	}
+	.logo a{
+		width: 50px;
+	}
+	.prev{
+		background: url('../images/arrow-left-small.png') no-repeat;
+		width: 21px;
+		height: 35px;
+		left: -20px;
+		top: 250px;
+	}
+	.next{
+		background: url('../images/arrow-right-small.png') no-repeat;
+		width: 20px;
+		height: 35px;
+		top: 250px;
+		right: -20px;
+	}
+	a.number img{
+		width: 135px;
+		height: 132px;
+	}
+	.fc-header-title h2{
+		font-size: 18px !important;
+	}
+	.list_carousel.responsive{
+		margin-right: 15px;
+	}
+	.list_carousel li{
+		margin-left: 18px;
+		margin-right: 18px;
+	}
+
+	h2.remove-bottom{
+		font-size: 22px;
+	}
+	img[alt="Web Logo Iso"]{
+		width: 250px;
+		height: 250px;
+	}
+	#calendar iframe{
+		width: 280px;
+		height: 258px;
+		margin-left: 0;
+	}
+
+}
